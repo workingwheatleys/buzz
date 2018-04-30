@@ -7,7 +7,7 @@ publishDir = "docs"
 [params]
     name = "Working Wheatleys"
     description = "werk werk werk werk"
-    email = "anthony.russel42@example.com"
+    email = "wheatley.keri@gmail.com"
     phone = "+770 8762380"
     address = "Austin, Texas"
     year = 2018
