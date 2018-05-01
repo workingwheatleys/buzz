@@ -1,8 +1,9 @@
 baseURL = "https://workingwheatleys.github.io/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme = "ananke"
-publishDir = "public"
+
+theme = "hugo-initio"
+publishDir = "docs"
 
 [params]
     name = "Working Wheatleys"
