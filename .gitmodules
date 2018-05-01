@@ -1,0 +1,8 @@
+
+[submodule "public"]
+	path = public
+	url = git@github.com:workingwheatleys/workingwheatleys.github.io.git
+	branch = master
+[submodule "themes/hugo-initio"]
+	path = themes/hugo-initio
+	url = https://github.com/miguelsimoni/hugo-initio.git
