@@ -1,13 +1,13 @@
 +++
 type = "itemized"
 author = "George Jetson"
-date = "2017-06-22"
-title = "Fancy App 2"
+date = "2017-03-22"
+title = "Airbnb 2"
 description = "Application for doing cool things."
 featured = ""
 featuredpath = ""
 featuredalt = ""
-categories = [""]
+categories = ["my airbnb"]
 linktitle = ""
 format = "Golang"
 link = "#"

@@ -11,7 +11,6 @@ categories = ["travel"]
 tags = ["traveling the world","unemployed"]
 linktitle = ""
 subtitle = "Atlanta, Georgia"
-datetitle = "June 2014"
 link = "#"
 +++
 

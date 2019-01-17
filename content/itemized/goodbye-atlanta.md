@@ -11,7 +11,6 @@ categories = ["travel"]
 tags = ["traveling the world","unemployed"]
 linktitle = ""
 subtitle = "São Paulo, Brazil"
-datetitle = "June 2014"
 link = "#"
 +++
 

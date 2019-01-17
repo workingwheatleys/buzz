@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Hugo Future Imperfect"
+title = "Working Wheatleys"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -13,15 +13,15 @@ canonifyURLs = true
 
 [params]
   # Sets the meta tag description
-  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  description          = "The Working Wheatleys share our thoughts on Data Science, Fitness, Airbnb Hosting, and Travel."
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Working Wheatleys"
   # Sets where "View More Posts" links
-  viewMorePostLink     = "/blog/"
+  viewMorePostLink     = ""
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
-  dynamicTitles        = true
+  dynamicTitles        = false
   # Sets RSS icons to appear on the sidebar with the social media buttons
   rssAppearAtTop       = false
   rssAppearAtBottom    = false
@@ -33,7 +33,7 @@ canonifyURLs = true
   # set to show or to hide categories in the sidebar
   showSidebarCategories = true
   # Sets Estimated Reading Time to appear in post headers
-  includeReadingTime   = true
+  includeReadingTime   = false
   # Sets the Favicon and Version for the site. Default support is for
   # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
   # These are stored in the favicon folder. See the following for more information:
@@ -90,24 +90,24 @@ canonifyURLs = true
 [params.intro]
   header    = "Working Wheatleys"
 
-  paragraph = "Our Work, Thoughts, and Hobbies"
+  paragraph = "Our Work and Hobbies"
 
-#  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/img/main/logo.jpg"
+    src       = "/img/main/logo.jpeg"
     # Sets Image to be a cirlce
-    circle    = false
+    circle    = true
     # Sets Image to be Future Imperfect's hexagon
-    imperfect = true
-    width     = ""
-    alt       = "Hugo Future Imperfect"
+    imperfect = false
+    width     = "200"
+    alt       = "Keri&Michael Wheatley"
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
-    sidebar = 5
+    sidebar = 4
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
@@ -119,47 +119,47 @@ canonifyURLs = true
   weight = 1
 
 [[menu.main]]
-  name = "Data Science"
-  url = "/data-science/"
-  identifier = "fa fa-cogs"
-  weight = 2
-
-[[menu.main]]
-  name = "Fitness"
-  url = "/fitness/"
-  identifier = "fa fa-bolt"
-  weight = 3
-
-[[menu.main]]
-  name = "Travel"
-  url = "/travel/"
-  identifier = "fa fa-map-o"
-  weight = 4
-
-[[menu.main]]
-  name = "My Airbnb"
-  url = "/my-airbnb/"
-  identifier = "fa fa-bed"
-  weight = 5
-
-[[menu.main]]
   name = "About"
   url = "/about/"
   identifier = "fa fa-id-card-o"
-  weight = 7
+  weight = 2
+
+[[menu.main]]
+  name = "Data Science"
+  url = "/categories/data-science/"
+  identifier = "fa fa-cogs"
+  weight = 3
+
+[[menu.main]]
+  name = "Fitness"
+  url = "/categories/fitness/"
+  identifier = "fa fa-bolt"
+  weight = 4
+
+[[menu.main]]
+  name = "Travel"
+  url = "/categories/travel/"
+  identifier = "fa fa-map-o"
+  weight = 5
+
+[[menu.main]]
+  name = "My Airbnb"
+  url = "/categories/my-airbnb/"
+  identifier = "fa fa-bed"
+  weight = 6
 
 [[menu.main]]
   name = "Contact"
   url = "/contact/"
   identifier = "fa fa-envelope-o"
-  weight = 8
+  weight = 7
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github           = "jpescador/hugo-future-imperfect"
+  github           = "keriwheatley"
   gitlab           = ""
   stackoverflow    = ""
   bitbucket        = ""
@@ -174,13 +174,13 @@ canonifyURLs = true
   wordpress        = ""
   medium           = ""
   # Professional/Business Oriented Communities
-  linkedin         = "example"
+  linkedin         = "keri-wheatley"
   linkedin_company = ""
   foursquare       = ""
   xing             = ""
   slideshare       = ""
   # Social Networks
-  facebook         = "example"
+  facebook         = ""
   googleplus       = ""
   reddit           = ""
   quora            = ""
@@ -189,7 +189,7 @@ canonifyURLs = true
   whatsapp         = ""
   wechat         = ""
   qq             = ""
-  instagram        = "example"
+  instagram        = "workingwheatleys"
   tumblr           = ""
   twitter          = ""
   skype            = ""
